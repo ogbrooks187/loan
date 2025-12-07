@@ -6,8 +6,7 @@ import pandas as pd
 import sklearn  # This is needed for the pickle file to load!
 
 # Load the trained model
-# --- Put the Model in Drive First---
-with open("/content/gdrive/MyDrive/BUS458/Logistic_Loans.pkl", "rb") as file:
+with open("logicticsLoands.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Title for the app
